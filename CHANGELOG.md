@@ -3,6 +3,31 @@
 Most recent updates are at the top
 Note: Every update assumes updating of CHANGELOG.md and package.json
 
+## 1.1.2 - Code Cleanup
+
+Added:
+
+- Added .prettierrc for consistent formatting
+
+Updated:
+
+- Updated `@types/node` and `typescript`
+- Updated GitHub username in `package.json`
+
+Fixed:
+
+- Test now works
+
+Removed:
+
+- nfgit.py should never have existed
+
+## 1.1.1 - Version Hotfix
+
+Fixed:
+
+- Updated version
+
 ## 1.1.0 - Minor Update
 
 Added:

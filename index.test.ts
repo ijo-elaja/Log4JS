@@ -356,11 +356,7 @@ thread();
 
 console.log("\n");
 
-<<<<<<< HEAD
 // printc test
-=======
-// // printc test
->>>>>>> 56d0abb06586c5a646a8a732596514b004da3402
 logger.debug("Logger.printc test (custom colors)");
 
 Logger.printc("printc", Style.RESET);
@@ -408,7 +404,6 @@ Logger.printc("printc", Style.BACKGROUND_LIGHT_MAGENTA);
 Logger.printc("printc", Style.BACKGROUND_LIGHT_AQUA);
 Logger.printc("printc", Style.BACKGROUND_LIGHT_WHITE);
 
-<<<<<<< HEAD
 console.log("\n");
 
 // printc test
@@ -428,8 +423,6 @@ Logger.printc(
 
 console.log("\n");
 
-=======
->>>>>>> 56d0abb06586c5a646a8a732596514b004da3402
 end = Date.now();
 
 logger.debug(`All tests completed in ${end - start} miliseconds`);
