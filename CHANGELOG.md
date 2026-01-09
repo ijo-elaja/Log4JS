@@ -3,6 +3,11 @@
 Most recent updates are at the top
 Note: Every update assumes updating of CHANGELOG.md and package.json
 
+## 1.2.0 - Transfer Scope
+
+- Changed package scope from `@tehcn` to `@ijo-elaja`
+- Deprecated `@tehcn/log4js`, all users should use `@ijo-elaja/log4js`
+
 ## 1.1.2 - Code Cleanup
 
 Added:

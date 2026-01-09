@@ -11,7 +11,7 @@ All output is colored in use, but not here. :(
 
 ```js
 // import the Logger class from Log4JS
-const { Logger } = require('@tehcn/log4js'); 
+const { Logger } = require('@ijo-elaja/log4js'); 
 
 // create a new logger named main
 const logger = new Logger('main'); 
@@ -30,7 +30,7 @@ Output (not colored):
 
 ```js
 // import the Logger class from Log4JS
-const { Logger } = require('@tehcn/log4js'); 
+const { Logger } = require('@ijo-elaja/log4js'); 
 
 // create a new logger named main with a default of debug
 const logger = new Logger('main', 'debug'); 
@@ -51,7 +51,7 @@ or something that will use a logger with the same name (threads for example)
 
 ```js
 // import the Logger class from Log4JS
-const { Logger } = require('@tehcn/log4js'); 
+const { Logger } = require('@ijo-elaja/log4js'); 
 
 // a function to represent a thread
 function thread() {
@@ -79,7 +79,7 @@ Output:
 Here's an example that makes a red bold text:
 
 ```js
-const { Logger, Style } = require('@tehcn/log4js');
+const { Logger, Style } = require('@ijo-elaja/log4js');
 
 Logger.printc('Hello, World!', Style.FOREGROUND_LIGHT_RED + Style.BOLD);
 ```
