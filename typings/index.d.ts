@@ -1,4 +1,4 @@
-declare module "@tehcn/log4js" {
+declare module "@ijo-elaja/log4js" {
     type LoggerLevel = "info" | "error" | "debug" | "warn" | undefined;
     class Logger {
         name: string;
@@ -12,7 +12,7 @@ declare module "@tehcn/log4js" {
         warn(msg: string | number): void;
         error(msg: string | number): void;
         static getLevelColor(
-            level: LoggerLevel
+            level: LoggerLevel,
         ): "\u001B[92m" | "\u001B[94m" | "\u001B[93m" | "\u001B[91m";
         static printc(msg: string | number, color: Style | string): void;
         getID(): number;

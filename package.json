@@ -1,9 +1,9 @@
 {
     "name": "@ijo-elaja/log4js",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Logger for JavaScript",
     "main": "index.ts",
-	"private": false,
+    "private": false,
     "scripts": {
         "test": "ts-node index.test.ts",
         "build": "tsc"

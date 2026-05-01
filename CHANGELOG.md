@@ -3,6 +3,10 @@
 Most recent updates are at the top
 Note: Every update assumes updating of CHANGELOG.md and package.json
 
+## 1.2.1 - Transfer Scope Patch
+
+- Updated typings/index.d.ts to reflect new package scope
+
 ## 1.2.0 - Transfer Scope
 
 - Changed package scope from `@tehcn` to `@ijo-elaja`
